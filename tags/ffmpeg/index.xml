@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>posts on holla blog...</title><link>https://hollacs.github.io/posts/</link><description>Recent content in posts on holla blog...</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2025 15:59:48 +0800</lastBuildDate><atom:link href="https://hollacs.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ffmpeg 常用指令筆記</title><link>https://hollacs.github.io/posts/ffmpeg/</link><pubDate>Thu, 20 Feb 2025 15:59:48 +0800</pubDate><guid>https://hollacs.github.io/posts/ffmpeg/</guid><description>&lt;h2 id="影片加速">影片加速&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ffmpeg on holla blog...</title><link>https://hollacs.github.io/tags/ffmpeg/</link><description>Recent content in ffmpeg on holla blog...</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2025 15:59:48 +0800</lastBuildDate><atom:link href="https://hollacs.github.io/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml"/><item><title>ffmpeg 常用指令筆記</title><link>https://hollacs.github.io/posts/ffmpeg/</link><pubDate>Thu, 20 Feb 2025 15:59:48 +0800</pubDate><guid>https://hollacs.github.io/posts/ffmpeg/</guid><description>&lt;h2 id="影片加速">影片加速&lt;/h2>
 &lt;p>以下指令將影片加速 60 倍 (加入 -an 移除聲音)&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ffmpeg -i input.mp4 -filter:v &lt;span style="color:#e6db74">&amp;#34;setpts=PTS/60&amp;#34;&lt;/span> out.mp4
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
@@ -23,7 +23,4 @@
 &lt;li>&lt;code>-c:a copy&lt;/code> 直接複製音軌&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;p>想到再加。&lt;/p></description></item><item><title>我的第一篇文章</title><link>https://hollacs.github.io/posts/first_post/</link><pubDate>Mon, 10 Feb 2025 06:58:01 +0800</pubDate><guid>https://hollacs.github.io/posts/first_post/</guid><description>&lt;p>一直想寫的 Blog，今天終於實現了！ (&lt;del>拖了很久&lt;/del>)&lt;/p>
-&lt;p>第一篇不知道該寫什麼，那就先自我恭喜一下我的新 Blog 開張吧！XD&lt;/p>
-&lt;p>未來我會寫更多文章，希望一切順利～&lt;/p>
-&lt;p>先這樣。 (&lt;del>筆墨暫時用完了&lt;/del>)&lt;/p></description></item></channel></rss>
+&lt;p>想到再加。&lt;/p></description></item></channel></rss>
